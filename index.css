@@ -1,0 +1,99 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #5aa92f83;
+    color: white;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header .social-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+header .social-links a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Layout */
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+main {
+    width: 80%;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.box {
+    width: 30%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #cf4a4a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
